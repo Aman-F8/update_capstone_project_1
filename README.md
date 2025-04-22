@@ -1,22 +1,22 @@
-your_project/
-│
-├── config/
-│   ├── __init__.py                   # Marks the config directory as a package
-│   └── conftest.py                   # Shared fixtures (like driver setup) go here
-│
-├── data/
-│   ├── __init__.py                   # Marks the data directory as a package
-│   └── Data.py                       # Test data (e.g., usernames, passwords)
-│
-├── pages/
-│   ├── __init__.py                   # Marks the pages directory as a package
-│   ├── check_login_page.py          # Page Object for login functionality
-│   └── page_access.py               # Page Object for role/access related actions
-│
-├── tests_cases/
-│   ├── __init__.py                           # Marks the test cases directory as a package
-│   ├── guvi_page_test_cases.py              # Test cases related to GUVI page
-│   └── test_login_valid_invalid_user.py     # Login tests for valid & invalid credentials
+├───.idea
+├───.pytest_cache
+│   └───v
+│       └───cache
+├───Configuration
+│   └───__pycache__
+├───Page_Objects
+│   └───__pycache__
+├───Test_Data
+│   └───__pycache__
+├───Test_Locators
+│   └───__pycache__
+├───Test_Scripts
+│   ├───.pytest_cache
+│   │   └───v
+│   │       └───cache
+│   └───__pycache__
+└───__pycache__
+
 
 # Capstone-project_1
 Using python selenium and pytest Framework automate the web application https://www.guvi.in
