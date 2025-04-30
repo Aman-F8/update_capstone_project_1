@@ -1,18 +1,23 @@
-# 🚀 MINI-PROJECT-01: Web Automation Using Python Selenium and Pytest
+# Project Summary
+
+This mini-project automates testing of the [GUVI](https://www.guvi.in) website using **Python**, **Selenium**, and **Pytest**. It covers end-to-end functionality checks such as validating the website URL and title, verifying visibility and clickability of login and signup buttons, navigating to the sign-in page, and performing both valid and invalid login tests. The automation suite includes both **positive and negative scenarios**, structured with Pytest for ease of execution and maintainability. The project generates HTML reports and uses best practices like Page Object Model and explicit waits.
+
+
+# MINI-PROJECT-01: Web Automation Using Python Selenium and Pytest
 
 **Title:**  
 Automating the Web Application [GUVI](https://www.guvi.in) using Python Selenium and Pytest Framework.
 
 ---
 
-## 📌 Test Objective
+## Test Objective
 
 The goal of this project is to **automate the GUVI web application** using the **Python Selenium framework** along with **Pytest** for structuring and executing the test cases. 
 This automation will include **positive and negative scenarios** across different web elements and actions.
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - **Python**
 - **Selenium WebDriver**
@@ -20,19 +25,19 @@ This automation will include **positive and negative scenarios** across differen
 
 ---
 
-## 🌐 Target URL
+## Target URL
 
 > [https://www.guvi.in](https://www.guvi.in)
 
 ---
 
-## ✅ Precondition
+## Precondition
 
 Test cases include **all positive and negative scenarios** for the provided test objectives.
 
 ---
 
-## 🧪 Test Suite
+## Test Suite
 
 ### **Test Case 1:** Validate URL  
 - Verify that the URL `https://www.guvi.in` is valid and accessible.
